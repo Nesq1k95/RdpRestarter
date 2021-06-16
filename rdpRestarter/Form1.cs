@@ -79,10 +79,10 @@ namespace rdpRestarter
                 {
                     this.Invoke((MethodInvoker)delegate
                     {
+                        Hide();
                         restartRdp();
                         timer1.Interval = hour;
                         timer1.Start();
-                        Hide();
                     });
                 }
             }
