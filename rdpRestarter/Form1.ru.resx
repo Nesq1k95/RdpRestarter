@@ -117,7 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>RdpRestarter</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="text1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 18</value>
+  </data>
+  <data name="text1.Text" xml:space="preserve">
+    <value>Перезапустить сервис RDP? Перезапуск через: </value>
+  </data>
+  <data name="yesButton.Text" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="HourButton.Text" xml:space="preserve">
+    <value>1 час</value>
+  </data>
+  <data name="dayButton.Text" xml:space="preserve">
+    <value>24 часа</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Не беспокоить:</value>
+  </data>
+  <data name="timeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 44</value>
+  </data>
+  <data name="testButton.Text" xml:space="preserve">
+    <value>10 сек</value>
   </data>
 </root>

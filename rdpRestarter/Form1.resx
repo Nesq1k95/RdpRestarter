@@ -117,59 +117,200 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="text1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="text1.Text" xml:space="preserve">
+    <value>Restart the RDP service? Countdown: </value>
+  </data>
+  <data name="&gt;&gt;dayButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 106</value>
+  </data>
+  <data name="&gt;&gt;HourButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dayButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 106</value>
+  </data>
+  <data name="&gt;&gt;yesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RdpRestarter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;testButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="text1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 18</value>
+  </data>
+  <data name="&gt;&gt;HourButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;text1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 11.25pt</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="text1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="HourButton.Text" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="dayButton.Text" xml:space="preserve">
+    <value>24 hours</value>
+  </data>
+  <data name="&gt;&gt;timeLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="text1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Georgia, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="text1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 18</value>
+  </data>
+  <data name="&gt;&gt;testButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;timeLabel.Name" xml:space="preserve">
+    <value>timeLabel</value>
+  </data>
+  <data name="timeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 11.25pt</value>
+  </data>
+  <data name="testButton.Text" xml:space="preserve">
+    <value>10 sec</value>
+  </data>
+  <data name="&gt;&gt;timeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="testButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 106</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="testButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="testButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="text1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="text1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 44</value>
-  </data>
-  <data name="text1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>402, 18</value>
-  </data>
-  <data name="text1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="text1.Text" xml:space="preserve">
-    <value>Перезапустить службу RDP? Будет перезапущена через</value>
-  </data>
-  <data name="&gt;&gt;text1.Name" xml:space="preserve">
-    <value>text1</value>
-  </data>
-  <data name="&gt;&gt;text1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;text1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;text1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="yesButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 106</value>
-  </data>
-  <data name="yesButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="testButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;HourButton.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="yesButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="yesButton.Text" xml:space="preserve">
-    <value>Да</value>
+  <data name="HourButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;yesButton.Name" xml:space="preserve">
-    <value>yesButton</value>
+  <data name="&gt;&gt;dayButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;yesButton.Type" xml:space="preserve">
+  <data name="HourButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="timeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 44</value>
+  </data>
+  <data name="dayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="timeLabel.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;text1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;text1.Name" xml:space="preserve">
+    <value>text1</value>
+  </data>
+  <data name="HourButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;text1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;testButton.Name" xml:space="preserve">
+    <value>testButton</value>
+  </data>
+  <data name="timeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="HourButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 106</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="testButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="timeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 18</value>
+  </data>
+  <data name="dayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dayButton.Name" xml:space="preserve">
+    <value>dayButton</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 76</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RdpRestarter</value>
+  </data>
+  <data name="&gt;&gt;testButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yesButton.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="yesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;dayButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="timeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;yesButton.Parent" xml:space="preserve">
     <value>$this</value>
@@ -177,184 +318,43 @@
   <data name="&gt;&gt;yesButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="HourButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="HourButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 106</value>
-  </data>
-  <data name="HourButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="HourButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="HourButton.Text" xml:space="preserve">
-    <value>1 час</value>
-  </data>
-  <data name="&gt;&gt;HourButton.Name" xml:space="preserve">
-    <value>HourButton</value>
-  </data>
-  <data name="&gt;&gt;HourButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HourButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;HourButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="dayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="dayButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, 106</value>
-  </data>
-  <data name="dayButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="dayButton.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="dayButton.Text" xml:space="preserve">
-    <value>24 часа</value>
-  </data>
-  <data name="&gt;&gt;dayButton.Name" xml:space="preserve">
-    <value>dayButton</value>
-  </data>
-  <data name="&gt;&gt;dayButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dayButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dayButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Georgia, 11.25pt</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 76</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 18</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Не беспокоить:</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="timeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="timeLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Georgia, 11.25pt</value>
-  </data>
-  <data name="timeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 44</value>
-  </data>
-  <data name="timeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 18</value>
-  </data>
-  <data name="timeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="timeLabel.Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;timeLabel.Name" xml:space="preserve">
-    <value>timeLabel</value>
-  </data>
-  <data name="&gt;&gt;timeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timeLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;timeLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>104, 17</value>
-  </metadata>
-  <data name="testButton.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="testButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="testButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 106</value>
-  </data>
-  <data name="testButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="testButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="testButton.Text" xml:space="preserve">
-    <value>10 сек</value>
-  </data>
-  <data name="&gt;&gt;testButton.Name" xml:space="preserve">
-    <value>testButton</value>
-  </data>
-  <data name="&gt;&gt;testButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;testButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;testButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>485, 141</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>RdpRestarter</value>
-  </data>
-  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
-    <value>timer1</value>
+  <data name="&gt;&gt;yesButton.Name" xml:space="preserve">
+    <value>yesButton</value>
   </data>
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
-    <value>backgroundWorker1</value>
-  </data>
-  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>RdpRestarter</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>485, 141</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;timeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dayButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HourButton.Name" xml:space="preserve">
+    <value>HourButton</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Do not disturb:</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

@@ -62,8 +62,8 @@
             // 
             // dayButton
             // 
-            this.dayButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             resources.ApplyResources(this.dayButton, "dayButton");
+            this.dayButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.dayButton.Name = "dayButton";
             this.dayButton.UseVisualStyleBackColor = true;
             this.dayButton.Click += new System.EventHandler(this.dayButton_Click);

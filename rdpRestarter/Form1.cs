@@ -27,8 +27,8 @@ namespace rdpRestarter
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (!this.Visible || this.WindowState == FormWindowState.Minimized)
-                this.Show();
+            if (!Visible || WindowState == FormWindowState.Minimized)
+                Show();
 
             backgroundWorker1.RunWorkerAsync();
 
@@ -37,7 +37,7 @@ namespace rdpRestarter
 
         private void dayButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             timer1.Interval = day;
             timer1.Start();
             stopCountdown = true;
@@ -47,7 +47,7 @@ namespace rdpRestarter
 
         private void HourButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             timer1.Interval = hour;
             timer1.Start();
             stopCountdown = true;
@@ -90,18 +90,18 @@ namespace rdpRestarter
 
         private void testButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            timer1.Interval = 1000 * 10;
+            Hide();
+            timer1.Interval = 1000 * 10; // 10 sec
             timer1.Start();
         }
 
         private void restartRdp()
         {
-            var SERVICENAME1 = "UmRdpService";
-            var SERVICENAME2 = "TermService";
+            var childServiceName = "UmRdpService";
+            var mainServiceName = "TermService";
 
-            restartService(SERVICENAME1);
-            restartService(SERVICENAME2);
+            restartService(childServiceName);
+            restartService(mainServiceName);
         }
 
         void restartService(string serviceName)
@@ -109,7 +109,6 @@ namespace rdpRestarter
             try
             {
                 var sc = new ServiceController(serviceName);
-
 
                 if (sc.Status != ServiceControllerStatus.Stopped)
                 {
@@ -131,11 +130,11 @@ namespace rdpRestarter
                 }
 
                 sc.Dispose();
-                //MessageBox.Show("Cлужба " + serviceName + "перезапущена");
+                //MessageBox.Show("Service " + serviceName + "succesfully restarted");
             }
             catch
             {
-                MessageBox.Show("Не удалось перезапустить службу " + serviceName);
+                MessageBox.Show("Failed to restart service " + serviceName);
             };
         }
     }
