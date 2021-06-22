@@ -20,7 +20,7 @@ namespace rdpRestarter
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
             backgroundWorker1.RunWorkerAsync();
-
+            TopMost = true;
             timer1.Stop();
         }
 
@@ -28,8 +28,13 @@ namespace rdpRestarter
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (!Visible || WindowState == FormWindowState.Minimized)
+            {
+                WindowState = FormWindowState.Maximized;
+                Focus();
                 Show();
-
+                WindowState = FormWindowState.Normal;
+            }
+                
             backgroundWorker1.RunWorkerAsync();
 
             timer1.Stop();
