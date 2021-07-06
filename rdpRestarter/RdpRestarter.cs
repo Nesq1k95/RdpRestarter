@@ -25,7 +25,7 @@ namespace rdpRestarter
         }
 
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             if (!Visible || WindowState == FormWindowState.Minimized)
             {
@@ -40,7 +40,7 @@ namespace rdpRestarter
             timer1.Stop();
         }
 
-        private void dayButton_Click(object sender, EventArgs e)
+        private void DayButton_Click(object sender, EventArgs e)
         {
             Hide();
             timer1.Interval = day;
@@ -60,9 +60,9 @@ namespace rdpRestarter
             backgroundWorker1.CancelAsync();      // Cancel the asynchronous operation.
         }
 
-        private void yesButton_Click(object sender, EventArgs e)
+        private void YesButton_Click(object sender, EventArgs e)
         {
-            restartRdp();
+            RestartRdp();
             stopCountdown = true;
             timer1.Interval = hour;
             timer1.Start();
@@ -70,7 +70,7 @@ namespace rdpRestarter
         }
 
 
-        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        private void BackgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
             for (int i = 10; i != -1; --i)
             {
@@ -85,7 +85,7 @@ namespace rdpRestarter
                     this.Invoke((MethodInvoker)delegate
                     {
                         Hide();
-                        restartRdp();
+                        RestartRdp();
                         timer1.Interval = hour;
                         timer1.Start();
                     });
@@ -93,23 +93,23 @@ namespace rdpRestarter
             }
         }
 
-        private void testButton_Click(object sender, EventArgs e)
+        private void TestButton_Click(object sender, EventArgs e)
         {
             Hide();
             timer1.Interval = 1000 * 10; // 10 sec
             timer1.Start();
         }
 
-        private void restartRdp()
+        private void RestartRdp()
         {
             var childServiceName = "UmRdpService";
             var mainServiceName = "TermService";
 
-            restartService(childServiceName);
-            restartService(mainServiceName);
+            RestartService(childServiceName);
+            RestartService(mainServiceName);
         }
 
-        void restartService(string serviceName)
+        void RestartService(string serviceName)
         {
             try
             {

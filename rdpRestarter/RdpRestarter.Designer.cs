@@ -51,7 +51,7 @@
             resources.ApplyResources(this.yesButton, "yesButton");
             this.yesButton.Name = "yesButton";
             this.yesButton.UseVisualStyleBackColor = true;
-            this.yesButton.Click += new System.EventHandler(this.yesButton_Click);
+            this.yesButton.Click += new System.EventHandler(this.YesButton_Click);
             // 
             // HourButton
             // 
@@ -62,11 +62,11 @@
             // 
             // dayButton
             // 
-            resources.ApplyResources(this.dayButton, "dayButton");
             this.dayButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.dayButton, "dayButton");
             this.dayButton.Name = "dayButton";
             this.dayButton.UseVisualStyleBackColor = true;
-            this.dayButton.Click += new System.EventHandler(this.dayButton_Click);
+            this.dayButton.Click += new System.EventHandler(this.DayButton_Click);
             // 
             // label1
             // 
@@ -75,7 +75,7 @@
             // 
             // timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // timeLabel
             // 
@@ -84,14 +84,14 @@
             // 
             // backgroundWorker1
             // 
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorker1_DoWork);
             // 
             // testButton
             // 
             resources.ApplyResources(this.testButton, "testButton");
             this.testButton.Name = "testButton";
             this.testButton.UseVisualStyleBackColor = true;
-            this.testButton.Click += new System.EventHandler(this.testButton_Click);
+            this.testButton.Click += new System.EventHandler(this.TestButton_Click);
             // 
             // RdpRestarter
             // 
